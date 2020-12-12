@@ -1,1 +1,9 @@
 publish_mode: editorial_workflow
+media_folder: "src/assets"
+public_folder: "src/assets"
+site_url: https://friendly-mestorf-612a1e.netlify.app
+
+import CMS from 'netlify-cms-app';
+import { de } from 'netlify-cms-locales';
+
+CMS.registerLocale('el', gr);
